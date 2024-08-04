@@ -2,13 +2,13 @@ macro_shift_opt_cmd: macro_shift_opt_cmd{
 compatible = "zmk,behavior-macro";
 label = "macro_shift_opt_cmd";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp LALT>, <&kp LGUI>;
+bindings = <&mt LEFT_SHIFT LSHIFT>, <&mt LALT LALT>, <&mt LCMD LCMD>;
 };
 macro_ctrl_opt: macro_ctrl_opt{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_opt";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LALT>;
+bindings = <&mt LCTRL LCTRL>, <&mt LALT LALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";

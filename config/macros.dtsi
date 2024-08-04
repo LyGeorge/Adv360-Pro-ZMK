@@ -1,12 +1,12 @@
-macro_shift+opt+cmd: macro_shift+opt+cmd{
+macro_shift_opt_cmd: macro_shift_opt_cmd{
 compatible = "zmk,behavior-macro";
-label = "macro_shift+opt+cmd";
+label = "macro_shift_opt_cmd";
 #binding-cells = <0>;
 bindings = <&kp LEFT_SHIFT>, <&kp LALT>, <&kp LGUI>;
 };
-macro_ctrl+option: macro_ctrl+option{
+macro_ctrl_opt: macro_ctrl_opt{
 compatible = "zmk,behavior-macro";
-label = "macro_ctrl+option";
+label = "macro_ctrl_opt";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp LALT>;
 };

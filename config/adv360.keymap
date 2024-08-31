@@ -80,11 +80,11 @@
 
         layer_Windows {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans     &trans  &trans                  &trans  &kp RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &kp LCTRL  &trans                  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LS(LA(LGUI))    &trans                  &trans  &kp RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                        &trans                  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans         &kp LCTRL  &kp LGUI                  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

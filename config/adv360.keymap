@@ -81,7 +81,7 @@
         layer_Windows {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 0                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans     &trans  &trans                  &trans  &kp RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LCTRL  &trans                  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans
